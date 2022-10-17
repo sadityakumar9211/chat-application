@@ -1,0 +1,21 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "Real-Time chat application with support for chat rooms",
+  "main": "server.js",
+  "author": "Aditya Kumar Singh",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "qs": "^6.11.0",
+    "socket.io": "^4.5.3"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
